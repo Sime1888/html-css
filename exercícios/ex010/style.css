@@ -1,0 +1,14 @@
+@charset "UFT-8";
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right,  #305266,  #4da7db);
+    text-align: justify;
+}
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #DB912E;
+    text-shadow: 2px 2px 3px #3a270dc1;
+}
+p {
+    text-align: justify;
+}
