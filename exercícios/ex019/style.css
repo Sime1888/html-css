@@ -1,0 +1,40 @@
+@charset "UTF-8";
+   /* 
+      em HTML é id="nome" em CSS é #nome {} (só pode um elemento)
+      em HTML é class="nome" em CSS é .nome{} (pode em vários)
+   */
+ body {
+    background-color: bisque;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #039999;
+    text-shadow: 2px 2px 3px #013838ec;
+ }
+ h1#principal{
+   text-align: center;
+   font-size: 3em; 
+   background-color: darkkhaki;
+   text-shadow: 2px 2px 3px rgb(103, 100, 57);
+ }
+ h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #f29e0d;
+ }
+ p {
+    text-align: justify;
+    text-indent: 30px;
+ }
+ .basico {
+   color: green;
+ }
+ .intermediario {
+   color: rgba(201, 188, 4, 0.888);
+ }
+ .avançado {
+   color: red;
+ }
+ .destaque {
+   background-color: rgb(2, 162, 2);
+ }

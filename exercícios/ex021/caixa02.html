@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Grounping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: bisque;
+            margin: 0px;
+        }
+        h1 {
+            text-shadow: 7px 0px 3px #1e1a1666;
+        }
+        header {
+            background-color: #c5a77f;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 5px 7px #292724;
+            
+        }
+        nav {
+           background-color: darkslategray;
+           padding: 3px;
+           box-shadow: 5px 5px 7px #1d191287;
+        }
+        nav > a {
+            text-decoration: none;
+            color: rgb(234, 221, 203);
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        nav >a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: #ece7e1;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px 60px 30px;/*O px pode ser conf. individualmente*/
+            box-shadow: 5px 5px 7px #292724;
+            
+        }
+        article {
+            background-color: #c5a77f;
+            padding: 5px;
+           
+        }
+        article >aside {
+            background-color: #a58b69;
+            margin: 3px;
+            box-shadow: 5px 5px 7px #29272484;
+        }
+        footer {
+            background-color: #292724;
+            color: aliceblue;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+        footer >p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: aliceblue;
+            border-radius: 50%;
+            margin: 15px;
+            /*Exemplo de uso de border radius*/
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            ESPORTES LAZER POLÍTICA
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias do Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, fugiat autem harum excepturi sint quam soluta inventore magnam ex recusandae obcaecati error corporis ipsum rerum modi nobis officia dolore sapiente! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero distinctio beatae, possimus nisi culpa hic neque ex fugit soluta dignissimos, temporibus, provident ullam exercitationem repellendus nemo tempora atque amet quaerat.</p>
+                <aside>
+                    <p>Artigo escrito por José Silva </p>
+                
+                </aside>
+
+            </article>
+
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

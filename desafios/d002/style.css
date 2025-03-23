@@ -1,0 +1,19 @@
+@chaset "UTF-8" ;
+body {
+    background-image: linear-gradient(to right,  red, blue )
+}
+
+
+main{
+   background-color: aliceblue;
+    width: 600px;
+    padding: 100px;
+    margin: auto;
+    border-radius: 50px;
+    
+    box-shadow: 5px 5px 3px  rgba(1, 1, 115, 0.671);
+}
+h1{
+    text-align: center;
+    text-shadow: 3px 3px 4px rgba(213, 211, 211, 0.866);
+}

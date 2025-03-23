@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Desafio de Imagem</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Você está vendo uma imagem completa? Experimente ampliar o tamanho da janela para aproveitar a melhor experiência&#128525;</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/elefp.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/elefm.png" type="image/png">
+        <img src="imagens/elefg.png" alt="imagem flexível">
+    </picture>
+    <h1>Exemplo 2</h1>
+    <p>Segunda tentativa de criar uma imagem dinâmica, vamos lá!</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/fotop.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/fotom.png" type="image/png">
+       <img src="imagens/fotog.png" alt="imagem flexível">
+    </picture>
+</body>
+</html>
