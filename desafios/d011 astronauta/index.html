@@ -6,26 +6,35 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <title>Projeto Astronauta</title>
     <style>
+      #container {
+        background-image: url(imagens/espaco.jpg);
+        background-size: cover;
+        position: relative;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: darkgray;
+        height: 97vh;
+      
+      }
+      #conteudo{
+        background-color: rgba(0, 0, 0, 0);
+        background-image: url(imagens/astronauta.png);
+        position: absolute;
+        height: 500px;
+        width: 500px;
+        left: 45%;
+        top: 35%;
+        transform: translate(-40%, -25%);
 
-   .base {
-    background-size: 100% 100%;
-    position: relative;
-    height: 97vh;
-    width: 98vw;
-    
-   }
-   .sobre {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-   }
+
+      }
     </style>
 </head>
 <body>
-  <div class="container">
-    <img src="imagens/espaco.jpg" alt="espaco" class="base">
-    <img src="imagens/astronauta.png" alt="astronauta" class="sobre">
-  </div>
+  <section id="container">
+    <article id="conteudo">
+
+    </article>
+  </section>
 </body>
 </html>
