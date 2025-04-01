@@ -6,6 +6,10 @@
     <style>
         body {
             font-family: 'Courier New', Courier, monospace;
+            
+        }
+        h1{
+            text-align: center;
         }
         caption {
             font-size: 1.3em;
@@ -16,14 +20,21 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            margin: auto;
+            position: relative;/* Configuração para cabeçalho fixo*/
         }
         td, th {
             border: 1px solid black;
             padding: 10px;
             }
-        thead, tfoot {
+        thead, tfoot { /*Configuração para cabeçalho fixo*/
             background-color: #6d6b6be0;
             color: whitesmoke;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #6d6b6be0;
         }
         tbody > tr:nth-child(odd) { /* EFEITO ZEBRADO*/
             background-color: lightgray;
