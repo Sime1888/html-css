@@ -7,6 +7,12 @@
         body {
             font-family: 'Courier New', Courier, monospace;
         }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: darkgrey;
+        }
         table {
             width: 500px;
             border-collapse: collapse;
@@ -18,6 +24,13 @@
         thead, tfoot {
             background-color: #6d6b6be0;
             color: whitesmoke;
+        }
+        tbody > tr:nth-child(odd) { /* EFEITO ZEBRADO*/
+            background-color: lightgray;
+            font-weight: bold;
+        }
+        tbody > tr:nth-child(even) {
+            background-color: whitesmoke; /* USAR OS DOIS APENAS SE QUISER DAR UM CONTRASTE MAIOR, SE O FUNDO FOR BRANCO NÃO PRECISA*/
         } 
         td.num {
             text-align: right;
@@ -26,12 +39,22 @@
     <title>Tabela Grandes</title>
 </head>
 <body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+        CAPTION= USADO COMO LEGENDA NÃO USA TH, TD, APENAS TEXTO.
+        THEAD= TR, TD, TH
+        TBODY= TR, TD, TH
+        TFOOT= TR, TD, TH
+    -->
     <table>
+        <caption>População das Unidades Federativas</caption>
        <thead>
         <tr>
-            <th>Estado</th>
-            <th>População</th>
-            <th>Porcentagem %</th>
+            <th scope="col">Estado</th>
+            <th scope="col">População</th>
+            <th scope="col">Porcentagem %</th>
         </tr>
        </thead>
        <tbody>
@@ -173,7 +196,7 @@
        </tbody>
        <tfoot>
         <tr>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="num"><strong>212 583 750</strong></td>
             <td class="num"><strong>100%</strong></td>
         </tr>
