@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+     table {
+        border-collapse: collapse;
+        width: 300px;
+     }
+     td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+     } 
+     .cor1 {
+        background-color: cadetblue;
+     }  
+     .cor2 {
+        background-color: bisque;
+     }
+     .cor3 {
+        background-color: darkgray;
+     }
+    </style>
+</head>
+<body>
+    <h1>Mesclagem de Célulasl</h1>
+    <table>
+        <tr>
+            <td>A</td>
+            <td colspan="2" class="cor1">B</td> <!--Colspan ocupa a coluna seguinte-->
+            
+        </tr>
+        <tr>
+            <td>D</td>
+            <td rowspan="3" class="cor3">E</td>
+            <td rowspan="2" class="cor2">F</td> <!--Ocupa a linha de baixo-->
+        </tr>
+        <tr>
+            <td>G</td>
+            
+            
+        </tr>
+        <tr>
+            <td>L</td>
+           
+            <td>N</td>
+        </tr>
+    
+    
+    
+    </table>
+
+</body>
+</html>
