@@ -10,14 +10,20 @@
         }
         table {
             border-collapse: collapse;
+            margin: auto;
         }
         td, th {
             border: 1px solid black;
             padding: 10px;
+            text-align: left;
         }
         th {
             background-color: darkgray;
             color: whitesmoke;
+        }
+        .exhu{
+            background-color: whitesmoke;
+            color: black;
         }
     </style>
 </head>
@@ -28,19 +34,25 @@
         </caption>
         <thead>
             <tr>
-                <th>Área</th>
-                <th>Disciplina</th>
-                <th>Notas</th>
-                <th>Média</th>
+                <th rowspan="2">Área</th>
+                <th rowspan="2">Disciplina</th>
+                <th colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+            </tr>
+            <tr>
+                <th>Nota1</th>
+                <th>Nota2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="3" scope="row">Exatas</th>
+                <th rowspan="3" scope="row" class="exhu">Exatas</th>
+                
                 <td>Matemática</td>
                 <td>7,5</td>
                 <td>6,0</td>
                 <td>6,75</td>
+                
             </tr>
             <tr>
                 <td>Física</td>
@@ -59,7 +71,7 @@
                 <td>6,5</td>
             </tr>
             <tr>
-                <th rowspan="2" scope="row">Humanas</th>
+                <th rowspan="2" scope="row" class="exhu">Humanas</th>
                 <td>História</td>
                 <td>7,0</td>
                 <td>7,0</td>
