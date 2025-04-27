@@ -1,2 +1,0 @@
-Informações enviadas
-Vamos aprender php
