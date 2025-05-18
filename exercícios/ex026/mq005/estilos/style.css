@@ -16,8 +16,21 @@ header > h1 {
     padding: 10px;
     text-align: center;
 }
-menu {
+i#burguer {
+    background-color: rgba(46, 44, 44, 0.89);
+   
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    
+} 
+i#burguer:hover {
+    background-color: rgba(82, 79, 79, 0.833);
+    color: black;
+}
+menu {
+    display: none;
 }
 menu > ul {
     list-style-type: none;
