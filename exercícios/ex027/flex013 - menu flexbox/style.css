@@ -16,13 +16,37 @@ header {
     background-color: rgb(62, 101, 102);
     color: whitesmoke;
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header > h1 {
     border: 1px dotted black;
+    flex: 0 0 200px;
 }
 header > nav {
     border: 1px dotted black;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
+header > nav > a {
+    background-color: rgba(2, 29, 2, 0.542);
+    color: whitesmoke;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+header > nav > a:hover {
+    background-color: rgba(245, 245, 245, 0.622);
+    color: rgba(2, 29, 2, 0.542);
+    transition: background-color .5s;
 }
 
 main {
