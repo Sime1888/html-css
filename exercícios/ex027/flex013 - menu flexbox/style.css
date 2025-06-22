@@ -24,11 +24,12 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black; Usar só para servir como base*/
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.858);
 }
 header > nav {
-    border: 1px dotted black;
+    /*border: 1px dotted black; Usar só como base*/
 
     display: flex;
     flex-flow: row wrap;
